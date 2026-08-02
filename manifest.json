@@ -10,7 +10,7 @@
         "version": "2.0.0",
         "mcVersionRange": "1.21.11",
         "loaderCompat": ["fabric"],
-        "sha256": "af73dd29e5be1793103a9e6779773753c075fcfaab1a5f8f6b4806a597709c38",
+        "sha256": "b80d6d3d57e0b5e96891d3f3337fe99635604bf16855ecd3243b7bf3761f1f28",
         "file": "lava-chicken-2.0.0.jar",
         "tag": "plugin-lava-chicken-v2.0.0",
         "dependencies": [
@@ -31,12 +31,6 @@
             "version": "1.5.6+fabric",
             "file": "https://cdn.modrinth.com/data/ojFjz7JF/versions/kjVdAw5R/untitledduckmod-fabric-1.21.11-1.5.6.jar",
             "sha256": "430ae68efe710f44f756ad521b6fb811c1598f140d50feee624d9fd9c16cf100"
-          },
-          {
-            "id": "fantasy",
-            "version": "0.7.0+1.21.11",
-            "file": "https://maven.nucleoid.xyz/xyz/nucleoid/fantasy/0.7.0+1.21.11/fantasy-0.7.0+1.21.11.jar",
-            "sha256": "a0f6912759ba780f32e525a25dd9b017da1f86e60c8179d9cecc05806d56ca22"
           }
         ],
         "notes": [

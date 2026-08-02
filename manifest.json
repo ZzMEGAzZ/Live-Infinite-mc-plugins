@@ -31,6 +31,12 @@
             "version": "1.5.6+fabric",
             "file": "https://cdn.modrinth.com/data/ojFjz7JF/versions/kjVdAw5R/untitledduckmod-fabric-1.21.11-1.5.6.jar",
             "sha256": "430ae68efe710f44f756ad521b6fb811c1598f140d50feee624d9fd9c16cf100"
+          },
+          {
+            "id": "fantasy",
+            "version": "0.7.0+1.21.11",
+            "file": "https://maven.nucleoid.xyz/xyz/nucleoid/fantasy/0.7.0+1.21.11/fantasy-0.7.0+1.21.11.jar",
+            "sha256": "a0f6912759ba780f32e525a25dd9b017da1f86e60c8179d9cecc05806d56ca22"
           }
         ],
         "notes": [

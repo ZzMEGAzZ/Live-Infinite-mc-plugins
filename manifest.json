@@ -7,6 +7,41 @@
     "category": "minigame",
     "versions": [
       {
+        "version": "2.1.0",
+        "mcVersionRange": "1.21.11",
+        "loaderCompat": ["fabric"],
+        "sha256": "6d1149d4090e69e10899245714a44d81dcd7500396be58e577ae854f1b00ee4e",
+        "file": "lava-chicken-2.1.0.jar",
+        "tag": "plugin-lava-chicken-v2.1.0",
+        "dependencies": [
+          {
+            "id": "fabric-api",
+            "version": "0.141.6+1.21.11",
+            "file": "https://cdn.modrinth.com/data/P7dR8mSH/versions/6qAuTtLR/fabric-api-0.141.6%2B1.21.11.jar",
+            "sha256": "bdff7fd7e220085cfad2ff9b1f40dde6534ae0b96cf378f97a374bc54cb9ed0f"
+          },
+          {
+            "id": "geckolib",
+            "version": "5.4.5",
+            "file": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/G1BvHQDL/geckolib-fabric-1.21.11-5.4.5.jar",
+            "sha256": "9ce5452528a4934e561bc847bf655a05a1b2c6ba2f161963ba5cb884fe0a0c1a"
+          },
+          {
+            "id": "untitledduckmod",
+            "version": "1.5.6+fabric",
+            "file": "https://cdn.modrinth.com/data/ojFjz7JF/versions/kjVdAw5R/untitledduckmod-fabric-1.21.11-1.5.6.jar",
+            "sha256": "430ae68efe710f44f756ad521b6fb811c1598f140d50feee624d9fd9c16cf100"
+          }
+        ],
+        "notes": [
+          "ของและไข่ไม่ตกค้างในสนามอีกต่อไป — ไอเทมทุกชิ้นที่ตกในสนาม (ของจากสัตว์ตาย, ไข่ไก่, ของที่ผู้เล่นทิ้งเอง) ถูกลบทิ้งอัตโนมัติทุก 0.5 วิ",
+          "แถบข้างจอเปลี่ยนจาก 'ชนะแล้ว: N' เป็น 'ขนาดสนาม: NxN' (ดูจำนวนวินได้จากแอปแทน)",
+          "เพิ่มคำสั่ง /inf status — คืนค่าตั้งค่าปัจจุบันทั้งหมดในบรรทัดเดียว เพื่อให้แอป Live Infinite อ่านค่าจริงจากเซิร์ฟเวอร์มาแสดงในหน้าตั้งค่าได้ (ไม่ต้องพิมพ์คำสั่งเอง)",
+          "ตอนชนะรอบจะ log บรรทัด LC_WIN — แอปใช้ตรวจจับเพื่อบวกตัวนับวินบน overlay ให้อัตโนมัติ (เปิด/ปิดได้ด้วย checkbox Auto Win ในแอป)",
+          "แก้บั๊กเกิดใหม่แล้วหลุดไปโผล่นอกสนาม (พร้อม warning 'Force-added player with duplicate UUID' ใน log) — ตอนนี้ตั้งจุดเกิดไว้ในโลกสนามโดยตรง และเช็ค/retry การเทเลพอร์ตแทนที่จะเชื่อว่าสำเร็จเสมอ"
+        ]
+      },
+      {
         "version": "2.0.0",
         "mcVersionRange": "1.21.11",
         "loaderCompat": ["fabric"],

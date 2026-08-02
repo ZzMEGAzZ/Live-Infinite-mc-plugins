@@ -7,6 +7,42 @@
     "category": "minigame",
     "versions": [
       {
+        "version": "2.3.2",
+        "mcVersionRange": "1.21.11",
+        "loaderCompat": ["fabric"],
+        "sha256": "32fc0d579592ef66bc4cc6cab7f3162a8c8b10cce30556f3a6bbd05d215b2c2a",
+        "file": "lava-chicken-2.3.2.jar",
+        "tag": "plugin-lava-chicken-v2.3.2",
+        "dependencies": [
+          {
+            "id": "fabric-api",
+            "version": "0.141.6+1.21.11",
+            "file": "https://cdn.modrinth.com/data/P7dR8mSH/versions/6qAuTtLR/fabric-api-0.141.6%2B1.21.11.jar",
+            "sha256": "bdff7fd7e220085cfad2ff9b1f40dde6534ae0b96cf378f97a374bc54cb9ed0f"
+          },
+          {
+            "id": "geckolib",
+            "version": "5.4.5",
+            "file": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/G1BvHQDL/geckolib-fabric-1.21.11-5.4.5.jar",
+            "sha256": "9ce5452528a4934e561bc847bf655a05a1b2c6ba2f161963ba5cb884fe0a0c1a"
+          },
+          {
+            "id": "untitledduckmod",
+            "version": "1.5.6+fabric",
+            "file": "https://cdn.modrinth.com/data/ojFjz7JF/versions/kjVdAw5R/untitledduckmod-fabric-1.21.11-1.5.6.jar",
+            "sha256": "430ae68efe710f44f756ad521b6fb811c1598f140d50feee624d9fd9c16cf100"
+          }
+        ],
+        "notes": [
+          "แก้เกิดใหม่แล้วขยับไม่ได้และไม่ได้ของ — 2.3.0 สั่งเทเลพอร์ตทุกครั้งแม้อยู่ในสนามอยู่แล้ว ทำให้ไคลเอนต์หลุด sync (ค้างอยู่กับที่) และเมื่อเทเลพอร์ตล้มเหลวโค้ดก็ออกก่อนจะแจกของ ตอนนี้เทเลพอร์ตเฉพาะตอนอยู่คนละมิติ และแจกของเสมอไม่ว่าเทเลพอร์ตจะสำเร็จหรือไม่",
+          "ลดขนาดข้อความกลางจอ — ข้อความทั่วไปย้ายไปช่อง subtitle ซึ่งไคลเอนต์วาดเล็กกว่าช่อง title (โปรโตคอลไม่มีให้ตั้งขนาดตัวอักษรตรงๆ) ส่วนเลขนับถอยหลังยังใช้ช่อง title ตัวใหญ่เหมือนเดิม",
+          "สัตว์และมอนสเตอร์ที่ถูกส่งเข้ามาติดชื่อคนส่ง แสดงเฉพาะตอนเล็งไปที่ตัวมัน (ไม่ตั้ง customNameVisible จึงไม่มีป้ายชื่อลอยเต็มสนาม)",
+          "เอา 'Total: N' ออกจากข้อความตอนปล่อยไก่ลงบ่อ เหลือแค่จำนวนที่เพิ่งปล่อย",
+          "เสียงนับถอยหลังดังขึ้น และ 3-2-1 ท้ายสุดซ้อนเสียงสองชั้น (ระฆัง + pling) — เสียงที่เล่นตรงตำแหน่งผู้ฟังถูกจำกัดที่ระดับ 1.0 อยู่แล้ว การซ้อนเสียงคือวิธีที่ทำให้ดังขึ้นจริง",
+          "ตอนชนะขึ้นข้อความกลางจอ 'ชนะแล้ว!' แก้ข้อความได้จากไฟล์ config/lavachicken.json คีย์ winTitle และ winSubtitle (ใช้ {winCount} แทนจำนวนครั้งได้)"
+        ]
+      },
+      {
         "version": "2.3.1",
         "mcVersionRange": "1.21.11",
         "loaderCompat": ["fabric"],

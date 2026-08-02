@@ -7,6 +7,38 @@
     "category": "minigame",
     "versions": [
       {
+        "version": "2.2.1",
+        "mcVersionRange": "1.21.11",
+        "loaderCompat": ["fabric"],
+        "sha256": "11e390ff8d4a642f1c205e95f2e74fef072e9b6e56a056b339de1d3468da408a",
+        "file": "lava-chicken-2.2.1.jar",
+        "tag": "plugin-lava-chicken-v2.2.1",
+        "dependencies": [
+          {
+            "id": "fabric-api",
+            "version": "0.141.6+1.21.11",
+            "file": "https://cdn.modrinth.com/data/P7dR8mSH/versions/6qAuTtLR/fabric-api-0.141.6%2B1.21.11.jar",
+            "sha256": "bdff7fd7e220085cfad2ff9b1f40dde6534ae0b96cf378f97a374bc54cb9ed0f"
+          },
+          {
+            "id": "geckolib",
+            "version": "5.4.5",
+            "file": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/G1BvHQDL/geckolib-fabric-1.21.11-5.4.5.jar",
+            "sha256": "9ce5452528a4934e561bc847bf655a05a1b2c6ba2f161963ba5cb884fe0a0c1a"
+          },
+          {
+            "id": "untitledduckmod",
+            "version": "1.5.6+fabric",
+            "file": "https://cdn.modrinth.com/data/ojFjz7JF/versions/kjVdAw5R/untitledduckmod-fabric-1.21.11-1.5.6.jar",
+            "sha256": "430ae68efe710f44f756ad521b6fb811c1598f140d50feee624d9fd9c16cf100"
+          }
+        ],
+        "notes": [
+          "แก้หน้าตั้งค่าในแอปขึ้นว่า 'เซิร์ฟเวอร์ยังไม่ได้เปิด' ทั้งที่เปิดอยู่ — /inf status กับ /inf score ถูกส่งเข้าคิวรอ tick ถัดไป แต่ RCON ตอบกลับไปก่อนแล้ว แอปเลยได้ข้อความว่าง ตอนนี้สองคำสั่งนี้ทำงานทันที (เป็นคำสั่งอ่านค่าอย่างเดียว ไม่ต้องเข้าคิว)",
+          "เวลานับถอยหลังชนะเริ่มต้นเปลี่ยนจาก 30 วิ เป็น 10 วิ"
+        ]
+      },
+      {
         "version": "2.2.0",
         "mcVersionRange": "1.21.11",
         "loaderCompat": ["fabric"],

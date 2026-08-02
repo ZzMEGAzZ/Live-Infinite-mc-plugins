@@ -7,6 +7,42 @@
     "category": "minigame",
     "versions": [
       {
+        "version": "2.3.0",
+        "mcVersionRange": "1.21.11",
+        "loaderCompat": ["fabric"],
+        "sha256": "ba2b7575a69712ed7e9705b9ffa8e354fa1cb93e555fc19e8c5ef504b57ecace",
+        "file": "lava-chicken-2.3.0.jar",
+        "tag": "plugin-lava-chicken-v2.3.0",
+        "dependencies": [
+          {
+            "id": "fabric-api",
+            "version": "0.141.6+1.21.11",
+            "file": "https://cdn.modrinth.com/data/P7dR8mSH/versions/6qAuTtLR/fabric-api-0.141.6%2B1.21.11.jar",
+            "sha256": "bdff7fd7e220085cfad2ff9b1f40dde6534ae0b96cf378f97a374bc54cb9ed0f"
+          },
+          {
+            "id": "geckolib",
+            "version": "5.4.5",
+            "file": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/G1BvHQDL/geckolib-fabric-1.21.11-5.4.5.jar",
+            "sha256": "9ce5452528a4934e561bc847bf655a05a1b2c6ba2f161963ba5cb884fe0a0c1a"
+          },
+          {
+            "id": "untitledduckmod",
+            "version": "1.5.6+fabric",
+            "file": "https://cdn.modrinth.com/data/ojFjz7JF/versions/kjVdAw5R/untitledduckmod-fabric-1.21.11-1.5.6.jar",
+            "sha256": "430ae68efe710f44f756ad521b6fb811c1598f140d50feee624d9fd9c16cf100"
+          }
+        ],
+        "notes": [
+          "เพิ่มเสียงนับถอยหลัง — เลขปกติเป็นเสียงเคาะเบาๆ ส่วน 3-2-1 สุดท้ายเปลี่ยนเป็นเสียงระฆังไล่ระดับสูงขึ้น และตัวเลขเป็นสีแดงตัวหนา",
+          "เอาเลข 3/2/1 สีแดงด้านขวาของแถบข้างจอออกแล้ว (มันคือเลขลำดับบรรทัด ไม่ใช่ค่าอะไรในเกม)",
+          "ของที่ตกในสนามถูกลบทุกชิ้นแล้ว ไม่ว่าจะตกตรงไหนในมิติสนาม (เดิมลบเฉพาะที่อยู่ในขอบสนาม ของที่กระเด็นออกนอกรั้วเลยค้างอยู่)",
+          "ของบังคับใส่เพิ่ม ธนู + ลูกธนู + ก้อนหิมะ (เดิมมีแค่ดาบกับชุด netherite) ลูกธนูและก้อนหิมะเติมให้เต็มอัตโนมัติทุก 0.5 วิ = ใช้ได้ไม่จำกัด",
+          "ผู้เล่นคนแรกที่เข้าเซิร์ฟเวอร์ได้สิทธิ op อัตโนมัติ (ถ้ายังไม่มีใครเป็น op) คนที่เข้าทีหลังไม่ได้",
+          "ตายแล้วจอดำ/โหลดนาน: เปลี่ยนเป็นสั่งเทเลพอร์ตทุกครั้งหลังเกิดใหม่ แม้จะอยู่ในมิติสนามอยู่แล้ว เพื่อบังคับส่ง chunk ใหม่ให้ไคลเอนต์ พร้อมใส่ log LC_RESPAWN บอกว่า vanilla เอาผู้เล่นไปเกิดที่มิติไหนจริงๆ (ยังไม่ยืนยันว่าแก้หาย)"
+        ]
+      },
+      {
         "version": "2.2.1",
         "mcVersionRange": "1.21.11",
         "loaderCompat": ["fabric"],

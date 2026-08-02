@@ -7,14 +7,6 @@
     "category": "minigame",
     "versions": [
       {
-        "version": "1.0.0",
-        "mcVersionRange": "1.21",
-        "loaderCompat": ["paper", "purpur", "spigot"],
-        "sha256": "9e1220e775ab9daaaa6ee9163c4c0f77a24520d5b7bd021ac2166e4477b6db32",
-        "file": "lava-chicken-1.0.0.jar",
-        "tag": "plugin-lava-chicken-v1.0.0"
-      },
-      {
         "version": "2.0.0",
         "mcVersionRange": "~1.21.11",
         "loaderCompat": ["fabric"],
@@ -38,44 +30,23 @@
     "id": "li-survival",
     "name": "Live Infinite Survival",
     "banner": "",
-    "description": "Gift-triggered survival effects (size, teleport, weather, potions, item rain...) driven over RCON by the Live Infinite desktop app.",
+    "description": "188 gift-triggered effects — resize, teleport, weather, buffs, mob spawns, item gifts, lootboxes and traps.",
     "category": "effects",
     "versions": [
       {
-        "version": "1.0.0",
-        "mcVersionRange": "1.21",
-        "loaderCompat": ["paper", "purpur", "spigot"],
-        "sha256": "7d7ff5e57b97f99182e16dac3a95b668374ac7998e40333b4c647960b781ca48",
-        "file": "li-survival-1.0.0.jar",
-        "tag": "plugin-li-survival-v1.0.0",
-        "notes": [
-          "เวอร์ชันแรก: ปลั๊กอิน Paper/Purpur/Spigot ที่รับคำสั่งเอฟเฟกต์จากแอป Live Infinite ผ่าน RCON (/li effect <ชื่อเอฟเฟกต์> <ผู้เล่น|@a> [ค่า])",
-          "เอฟเฟกต์ชุดแรก: ปรับขนาดตัว (ยักษ์/จิ๋ว/รีเซ็ต), เทเลพอร์ต (ขึ้นฟ้า/สุ่ม), สภาพอากาศ (ฟ้าผ่า/เคลียร์), บัฟ/ดีบัฟ (เร็ว/ช้า/ตาบอด/ลอย/มึน), ฝนไอเทม, สลับของในกระเป๋า, ติดไฟ/ดับไฟ",
-          "ผู้เล่นทุกคนในเซิร์ฟเวอร์โดนเอฟเฟกต์ได้ทันที ไม่ต้องติดตั้งอะไรเพิ่มฝั่งผู้เล่น"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "li-survival-fabric",
-    "name": "Live Infinite Survival (Fabric)",
-    "banner": "",
-    "description": "Gift-triggered survival effects for Fabric servers — 188 effects (mob spawns, item gifts, buffs/debuffs, lootboxes, world hazards...) driven over RCON by the Live Infinite desktop app. Replaces the Paper-based li-survival plugin.",
-    "category": "effects",
-    "versions": [
-      {
-        "version": "1.0.0",
-        "mcVersionRange": "1.21.11",
+        "version": "2.0.0",
+        "mcVersionRange": "~1.21.11",
         "loaderCompat": ["fabric"],
         "sha256": "7375fcf0865c00f965e0036043b946eac77dffb17c75373625403e8f55dfce7a",
-        "file": "li-survival-fabric-1.0.0.jar",
-        "tag": "plugin-li-survival-fabric-v1.0.0",
+        "file": "li-survival-2.0.0.jar",
+        "tag": "plugin-li-survival-v2.0.0",
         "notes": [
-          "เวอร์ชันแรก: มอด Fabric ที่รับคำสั่งเอฟเฟกต์จากแอป Live Infinite ผ่าน RCON (/li effect <ชื่อเอฟเฟกต์> <ผู้เล่น|@a> <ชื่อผู้ส่ง> [ค่า])",
+          "เขียนใหม่ทั้งหมดจาก Paper plugin เป็น Fabric mod — ต้องรัน Fabric server (ไม่ใช่ Paper/Purpur/Spigot อีกต่อไป) พร้อม Fabric API",
           "188 เอฟเฟกต์: ขนาดตัว/เทเลพอร์ต/สภาพอากาศ/เลือด/บัฟ-ดีบัฟ/กระเป๋าไอเทม/ของขวัญไอเทม/เรียกมอนสเตอร์/กับดัก/ครีปเปอร์พันธุ์ต่างๆ/กล่องสุ่มไอเทม (lootbox — มี GUI ลากของเก็บได้)",
+          "คำสั่ง: /li effect <ชื่อเอฟเฟกต์> <ผู้เล่น|@a> <ชื่อผู้ส่ง> [ค่า] — รับจาก RCON โดยแอป Live Infinite",
           "มอบชื่อผู้ส่งของขวัญติดบนมอนสเตอร์ที่เรียกและไอเทมที่ให้ (nameplate/lore)",
           "ระบบคิวสองชั้น: คิวหลักไม่บล็อก, คิว modal (lootbox) เข้าคิวทีละอันต่อผู้เล่น, ข้อความ title เด้งทันทีไม่ต้องรอคิว และเปิด/ปิดได้",
-          "Build นี้ obfuscate ด้วย ProGuard — ไม่ใช่ jar เดียวกับที่ build จากซอร์สตรงๆ"
+          "jar นี้ obfuscate ด้วย ProGuard — ไม่ใช่ jar เดียวกับที่ build จากซอร์สตรงๆ"
         ]
       }
     ]

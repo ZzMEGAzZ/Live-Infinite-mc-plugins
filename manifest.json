@@ -55,5 +55,29 @@
         ]
       }
     ]
+  },
+  {
+    "id": "li-survival-fabric",
+    "name": "Live Infinite Survival (Fabric)",
+    "banner": "",
+    "description": "Gift-triggered survival effects for Fabric servers — 188 effects (mob spawns, item gifts, buffs/debuffs, lootboxes, world hazards...) driven over RCON/ServerTap by the Live Infinite desktop app. Replaces the Paper-based li-survival plugin.",
+    "category": "effects",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "mcVersionRange": "1.21.11",
+        "loaderCompat": ["fabric"],
+        "sha256": "7375fcf0865c00f965e0036043b946eac77dffb17c75373625403e8f55dfce7a",
+        "file": "li-survival-fabric-1.0.0.jar",
+        "tag": "plugin-li-survival-fabric-v1.0.0",
+        "notes": [
+          "เวอร์ชันแรก: มอด Fabric ที่รับคำสั่งเอฟเฟกต์จากแอป Live Infinite ผ่าน RCON หรือ ServerTap (/li effect <ชื่อเอฟเฟกต์> <ผู้เล่น|@a> <ชื่อผู้ส่ง> [ค่า])",
+          "188 เอฟเฟกต์: ขนาดตัว/เทเลพอร์ต/สภาพอากาศ/เลือด/บัฟ-ดีบัฟ/กระเป๋าไอเทม/ของขวัญไอเทม/เรียกมอนสเตอร์/กับดัก/ครีปเปอร์พันธุ์ต่างๆ/กล่องสุ่มไอเทม (lootbox — มี GUI ลากของเก็บได้)",
+          "มอบชื่อผู้ส่งของขวัญติดบนมอนสเตอร์ที่เรียกและไอเทมที่ให้ (nameplate/lore)",
+          "ระบบคิวสองชั้น: คิวหลักไม่บล็อก, คิว modal (lootbox) เข้าคิวทีละอันต่อผู้เล่น, ข้อความ title เด้งทันทีไม่ต้องรอคิว และเปิด/ปิดได้",
+          "Build นี้ obfuscate ด้วย ProGuard — ไม่ใช่ jar เดียวกับที่ build จากซอร์สตรงๆ"
+        ]
+      }
+    ]
   }
 ]

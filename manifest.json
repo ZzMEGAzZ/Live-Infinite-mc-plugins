@@ -7,6 +7,42 @@
     "category": "minigame",
     "versions": [
       {
+        "version": "2.4.0",
+        "mcVersionRange": "1.21.11",
+        "loaderCompat": ["fabric"],
+        "sha256": "05535a125a51583a63a92d4a7a7da009e3b50a76b8ad0d10cc7cbf02a7aa8e1a",
+        "file": "lava-chicken-2.4.0.jar",
+        "tag": "plugin-lava-chicken-v2.4.0",
+        "dependencies": [
+          {
+            "id": "fabric-api",
+            "version": "0.141.6+1.21.11",
+            "file": "https://cdn.modrinth.com/data/P7dR8mSH/versions/6qAuTtLR/fabric-api-0.141.6%2B1.21.11.jar",
+            "sha256": "bdff7fd7e220085cfad2ff9b1f40dde6534ae0b96cf378f97a374bc54cb9ed0f"
+          },
+          {
+            "id": "geckolib",
+            "version": "5.4.5",
+            "file": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/G1BvHQDL/geckolib-fabric-1.21.11-5.4.5.jar",
+            "sha256": "9ce5452528a4934e561bc847bf655a05a1b2c6ba2f161963ba5cb884fe0a0c1a"
+          },
+          {
+            "id": "untitledduckmod",
+            "version": "1.5.6+fabric",
+            "file": "https://cdn.modrinth.com/data/ojFjz7JF/versions/kjVdAw5R/untitledduckmod-fabric-1.21.11-1.5.6.jar",
+            "sha256": "430ae68efe710f44f756ad521b6fb811c1598f140d50feee624d9fd9c16cf100"
+          }
+        ],
+        "notes": [
+          "มอนสเตอร์ธรรมชาติไม่เกิดในมิติสนามอีกต่อไป (ปิด doMobSpawning) และทุก 0.5 วิจะกวาดสิ่งมีชีวิตที่ไม่ได้ถูกส่งเข้ามาทิ้ง — สนามเก่าที่มีซอมบี้เกิดเต็มรอบนอกอยู่แล้วก็ถูกเคลียร์ให้",
+          "มอนสเตอร์ที่ถูกส่งเข้ามาจะเล็งผู้เล่นตลอดเวลา ไม่ไปไล่ไก่หรือเดินเรื่อยเปื่อย",
+          "สนามใหม่เกิดมามีแต่ไก่ ไม่มีพิกลินพันธมิตร 3 ตัวแถมมาแล้ว (ยังเรียกได้จาก /inf allies) และตอนรีเซ็ตรอบใหม่จะล้างมอนสเตอร์ที่ค้างจากรอบก่อนออก",
+          "ฝนสัตว์เปลี่ยนเป็นกำหนดจำนวนตัว /inf rain <จำนวน> = ปล่อยลงมาทันทีตามจำนวนนั้น และเล็งจุดตกเฉพาะด้านในสนาม ไม่ตกคร่อมรั้วหรือหลุดออกนอก (โหมด rain on/off แบบเดิมยังใช้ได้)",
+          "เพิ่ม /inf grow <จำนวน> และ /inf shrink <จำนวน> ปรับขนาดสนามแบบบวก/ลบจากขนาดปัจจุบัน ย่อได้ต่ำสุด 6x6",
+          "แก้พื้นลาวาแล้วตัวจม — เดิมน้ำลาวาไปแทนที่ตัวพื้นเลยไม่มีอะไรให้ยืน ตอนนี้ลาวาอยู่สูงขึ้นมา 1 บล็อกบนพื้นเดิม พื้นยังอยู่ครบและรั้วกันลาวาไม่ให้ไหลออก"
+        ]
+      },
+      {
         "version": "2.3.2",
         "mcVersionRange": "1.21.11",
         "loaderCompat": ["fabric"],

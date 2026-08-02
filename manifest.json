@@ -8,7 +8,7 @@
     "versions": [
       {
         "version": "2.0.0",
-        "mcVersionRange": "~1.21.11",
+        "mcVersionRange": "1.21.11",
         "loaderCompat": ["fabric"],
         "sha256": "af73dd29e5be1793103a9e6779773753c075fcfaab1a5f8f6b4806a597709c38",
         "file": "lava-chicken-2.0.0.jar",
@@ -35,7 +35,7 @@
     "versions": [
       {
         "version": "2.0.0",
-        "mcVersionRange": "~1.21.11",
+        "mcVersionRange": "1.21.11",
         "loaderCompat": ["fabric"],
         "sha256": "7375fcf0865c00f965e0036043b946eac77dffb17c75373625403e8f55dfce7a",
         "file": "li-survival-2.0.0.jar",

@@ -7,6 +7,40 @@
     "category": "minigame",
     "versions": [
       {
+        "version": "2.6.0",
+        "mcVersionRange": "1.21.11",
+        "loaderCompat": ["fabric"],
+        "sha256": "08af3b7a63452a12ce3fd57077dcfa48655bd490ac9e38034017360ee64aee9b",
+        "file": "lava-chicken-2.6.0.jar",
+        "tag": "plugin-lava-chicken-v2.6.0",
+        "dependencies": [
+          {
+            "id": "fabric-api",
+            "version": "0.141.6+1.21.11",
+            "file": "https://cdn.modrinth.com/data/P7dR8mSH/versions/6qAuTtLR/fabric-api-0.141.6%2B1.21.11.jar",
+            "sha256": "bdff7fd7e220085cfad2ff9b1f40dde6534ae0b96cf378f97a374bc54cb9ed0f"
+          },
+          {
+            "id": "geckolib",
+            "version": "5.4.5",
+            "file": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/G1BvHQDL/geckolib-fabric-1.21.11-5.4.5.jar",
+            "sha256": "9ce5452528a4934e561bc847bf655a05a1b2c6ba2f161963ba5cb884fe0a0c1a"
+          },
+          {
+            "id": "untitledduckmod",
+            "version": "1.5.6+fabric",
+            "file": "https://cdn.modrinth.com/data/ojFjz7JF/versions/kjVdAw5R/untitledduckmod-fabric-1.21.11-1.5.6.jar",
+            "sha256": "430ae68efe710f44f756ad521b6fb811c1598f140d50feee624d9fd9c16cf100"
+          }
+        ],
+        "notes": [
+          "อุ้มไก่เห็นเป็นตัวจริงแล้ว! จับแล้วสัตว์จะขึ้นไปเกาะบนตัวผู้เล่น (ใช้ระบบ vanilla ล้วน ไม่ต้องลงมอดเพิ่มฝั่งผู้เล่น) และตอนปล่อยลงบ่อจะถูกโยนโค้งเข้าไปกลางบ่อแทนที่จะหายวับ",
+          "ไก่ที่กำลังอุ้มอยู่และที่กำลังลอยไปกลางอากาศ ไม่ถูกนับใน 'สัตว์คงเหลือ' — ไม่งั้นการอุ้มไว้เฉยๆ จะทำให้เงื่อนไขชนะไม่มีวันเข้า",
+          "ตายระหว่างอุ้ม สัตว์ที่อุ้มอยู่หายไปพร้อมกัน, ลาวาท่วมและรีเซ็ตรอบก็ล้างของที่อุ้มอยู่ด้วย ตัวนับจำนวนที่อุ้มจึงไม่ค้าง",
+          "สัตว์ที่กำลังถูกอุ้มไม่โดนระบบเก็บกวาดออกนอกสนามอีกต่อไป"
+        ]
+      },
+      {
         "version": "2.5.0",
         "mcVersionRange": "1.21.11",
         "loaderCompat": ["fabric"],

@@ -7,6 +7,39 @@
     "category": "minigame",
     "versions": [
       {
+        "version": "2.11.0",
+        "mcVersionRange": "1.21.11",
+        "loaderCompat": ["fabric"],
+        "sha256": "3d4cdc4c108425c7397301fc045f74fd4d8384863e7b13368fdfa351a0ef6269",
+        "file": "lava-chicken-2.11.0.jar",
+        "tag": "plugin-lava-chicken-v2.11.0",
+        "dependencies": [
+          {
+            "id": "fabric-api",
+            "version": "0.141.6+1.21.11",
+            "file": "https://cdn.modrinth.com/data/P7dR8mSH/versions/6qAuTtLR/fabric-api-0.141.6%2B1.21.11.jar",
+            "sha256": "bdff7fd7e220085cfad2ff9b1f40dde6534ae0b96cf378f97a374bc54cb9ed0f"
+          },
+          {
+            "id": "geckolib",
+            "version": "5.4.5",
+            "file": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/G1BvHQDL/geckolib-fabric-1.21.11-5.4.5.jar",
+            "sha256": "9ce5452528a4934e561bc847bf655a05a1b2c6ba2f161963ba5cb884fe0a0c1a"
+          },
+          {
+            "id": "untitledduckmod",
+            "version": "1.5.6+fabric",
+            "file": "https://cdn.modrinth.com/data/ojFjz7JF/versions/kjVdAw5R/untitledduckmod-fabric-1.21.11-1.5.6.jar",
+            "sha256": "430ae68efe710f44f756ad521b6fb811c1598f140d50feee624d9fd9c16cf100"
+          }
+        ],
+        "notes": [
+          "ตัดพิกลินฝ่ายศัตรูออกหมด (ซอมบี้พิกลิน และพิกลินบรูท) เหลือพิกลินเฉพาะฝ่ายพันธมิตรเท่านั้น ของขวัญ 2 อันนี้ถูกถอดออกจากรายการด้วย",
+          "พิกลินพันธมิตรไล่ตีมอนก่อนเสมอ แม้กำลังอุ้มสัตว์ไปปล่อยลงบ่ออยู่ก็ทิ้งไว้ก่อนแล้วไปจัดการศัตรูให้จบก่อน",
+          "ฮอกลิน/ซอกลิน ไม่ยอมเดินข้ามลาวาจึงติดค้างอยู่ขอบบ่อ ตอนนี้ถ้าตัวไหนไปไหนไม่ได้ราว 2 วิ จะวาร์ปกลับขึ้นสนามแบบเอนเดอร์แมน (มีเสียงประกอบ) แล้วไล่ผู้เล่นต่อทันที มอนตัวอื่นที่ติดก็ได้ผลเดียวกัน"
+        ]
+      },
+      {
         "version": "2.10.0",
         "mcVersionRange": "1.21.11",
         "loaderCompat": ["fabric"],

@@ -7,6 +7,40 @@
     "category": "minigame",
     "versions": [
       {
+        "version": "2.13.0",
+        "mcVersionRange": "1.21.11",
+        "loaderCompat": ["fabric"],
+        "sha256": "727a8555319ef7c0c6d0edaa0b257cccc203264c6de0223119f807533054e191",
+        "file": "lava-chicken-2.13.0.jar",
+        "tag": "plugin-lava-chicken-v2.13.0",
+        "dependencies": [
+          {
+            "id": "fabric-api",
+            "version": "0.141.6+1.21.11",
+            "file": "https://cdn.modrinth.com/data/P7dR8mSH/versions/6qAuTtLR/fabric-api-0.141.6%2B1.21.11.jar",
+            "sha256": "bdff7fd7e220085cfad2ff9b1f40dde6534ae0b96cf378f97a374bc54cb9ed0f"
+          },
+          {
+            "id": "geckolib",
+            "version": "5.4.5",
+            "file": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/G1BvHQDL/geckolib-fabric-1.21.11-5.4.5.jar",
+            "sha256": "9ce5452528a4934e561bc847bf655a05a1b2c6ba2f161963ba5cb884fe0a0c1a"
+          },
+          {
+            "id": "untitledduckmod",
+            "version": "1.5.6+fabric",
+            "file": "https://cdn.modrinth.com/data/ojFjz7JF/versions/kjVdAw5R/untitledduckmod-fabric-1.21.11-1.5.6.jar",
+            "sha256": "430ae68efe710f44f756ad521b6fb811c1598f140d50feee624d9fd9c16cf100"
+          }
+        ],
+        "notes": [
+          "แก้รั้วหายไป 2 ด้าน — ขอบเขตสนามไม่สมมาตร (ด้านลบไปได้ถึง -half แต่ด้านบวกได้แค่ half-1) โค้ดเช็คขอบใช้ค่าสัมบูรณ์เทียบกับ half ซึ่งเป็นจริงเฉพาะสองด้านเมื่อขนาดสนามเป็นเลขคู่ พอค่าเริ่มต้นเปลี่ยนเป็น 12 (คู่) รั้วเลยหายไปสองด้านทุกครั้งที่สร้างหรือชนะ และการขยาย/ย่อทีละเลขคี่ทำให้สลับหายๆ มาๆ ตอนนี้คำนวณขอบจากขอบเขตจริงที่เดียว ใช้ร่วมกันทุกจุด",
+          "ห่านตีแรงกลับเป็น 10 เท่า (จาก 20 เท่าใน 2.12.0)",
+          "แก้อุ้มสัตว์แล้วสัตว์หายเฉยๆ ไม่มีท่าอุ้ม — วิธีเดิมใช้ startRiding ให้สัตว์ขี่ผู้เล่น ซึ่ง Minecraft ปฏิเสธเสมอ (โค้ดเช็ค EntityType.PLAYER.isSaveable() ซึ่งเป็น false ตั้งแต่ก่อนถึงเงื่อนไข force) ระบบเลยลบสัตว์ทิ้งตามที่เขียนกันไว้ ตอนนี้เปลี่ยนเป็นตรึงตำแหน่งสัตว์ไว้เหนือหัวผู้เล่นทุก tick แทน เห็นเป็นการอุ้มจริงและยังโยนลงบ่อได้เหมือนเดิม",
+          "แก้นับถอยหลังชนะขึ้นทั้งที่ยังไม่ได้ปล่อยสัตว์ลงบ่อ — สัตว์ที่กำลังอุ้มอยู่ถูกนับเป็น 'สัตว์คงเหลือ' แล้ว จะชนะได้ต้องปล่อยลงบ่อจริงเท่านั้น (เดิมพออุ้มปุ๊บมันหายจากการนับทันที)"
+        ]
+      },
+      {
         "version": "2.12.0",
         "mcVersionRange": "1.21.11",
         "loaderCompat": ["fabric"],

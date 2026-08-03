@@ -7,6 +7,39 @@
     "category": "minigame",
     "versions": [
       {
+        "version": "2.12.0",
+        "mcVersionRange": "1.21.11",
+        "loaderCompat": ["fabric"],
+        "sha256": "089263a66d0dceedbe1fc6d9f40fb6d0b1737bd496bc47e333a608e74f00b7c8",
+        "file": "lava-chicken-2.12.0.jar",
+        "tag": "plugin-lava-chicken-v2.12.0",
+        "dependencies": [
+          {
+            "id": "fabric-api",
+            "version": "0.141.6+1.21.11",
+            "file": "https://cdn.modrinth.com/data/P7dR8mSH/versions/6qAuTtLR/fabric-api-0.141.6%2B1.21.11.jar",
+            "sha256": "bdff7fd7e220085cfad2ff9b1f40dde6534ae0b96cf378f97a374bc54cb9ed0f"
+          },
+          {
+            "id": "geckolib",
+            "version": "5.4.5",
+            "file": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/G1BvHQDL/geckolib-fabric-1.21.11-5.4.5.jar",
+            "sha256": "9ce5452528a4934e561bc847bf655a05a1b2c6ba2f161963ba5cb884fe0a0c1a"
+          },
+          {
+            "id": "untitledduckmod",
+            "version": "1.5.6+fabric",
+            "file": "https://cdn.modrinth.com/data/ojFjz7JF/versions/kjVdAw5R/untitledduckmod-fabric-1.21.11-1.5.6.jar",
+            "sha256": "430ae68efe710f44f756ad521b6fb811c1598f140d50feee624d9fd9c16cf100"
+          }
+        ],
+        "notes": [
+          "ฮอกลิน ซอกลิน และห่าน จะดันผู้เล่นเข้าหาบ่อลาวาตลอดเวลาที่ประชิดตัวอยู่ (ในระยะ 2.5 บล็อก) เป็นแรงดันทีละนิดต่อ tick ไม่ใช่กระเด็นทีเดียว ถอยห่างออกมาก็หยุดทันที และไม่มีทางถูกดีดข้ามสนาม",
+          "สัตว์ร้ายทุกชนิดเล็งผู้เล่นเสมอ ไม่สนสัตว์ตัวอื่น — เดิมสั่งเป้าหมายทุก 0.5 วิ มันมีช่วงว่างให้ไปไล่ไก่ได้ ตอนนี้สั่งใหม่ทุก tick และล้างเป้าหมายที่ไม่ใช่ผู้เล่นทิ้ง",
+          "ห่านตีแรงขึ้นเป็น 20 เท่าจากค่าเริ่มต้น"
+        ]
+      },
+      {
         "version": "2.11.0",
         "mcVersionRange": "1.21.11",
         "loaderCompat": ["fabric"],

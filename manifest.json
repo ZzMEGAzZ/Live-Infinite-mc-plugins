@@ -7,6 +7,38 @@
     "category": "minigame",
     "versions": [
       {
+        "version": "2.23.0",
+        "mcVersionRange": "1.21.11",
+        "loaderCompat": ["fabric"],
+        "sha256": "921698f1b8a779b0fedd5e3f74adda8ca0ff23bb8b5f73fd65ebd9d88f55b5f1",
+        "file": "lava-chicken-2.23.0.jar",
+        "tag": "plugin-lava-chicken-v2.23.0",
+        "dependencies": [
+          {
+            "id": "fabric-api",
+            "version": "0.141.6+1.21.11",
+            "file": "https://cdn.modrinth.com/data/P7dR8mSH/versions/6qAuTtLR/fabric-api-0.141.6%2B1.21.11.jar",
+            "sha256": "bdff7fd7e220085cfad2ff9b1f40dde6534ae0b96cf378f97a374bc54cb9ed0f"
+          },
+          {
+            "id": "geckolib",
+            "version": "5.4.5",
+            "file": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/G1BvHQDL/geckolib-fabric-1.21.11-5.4.5.jar",
+            "sha256": "9ce5452528a4934e561bc847bf655a05a1b2c6ba2f161963ba5cb884fe0a0c1a"
+          },
+          {
+            "id": "untitledduckmod",
+            "version": "1.5.6+fabric",
+            "file": "https://cdn.modrinth.com/data/ojFjz7JF/versions/kjVdAw5R/untitledduckmod-fabric-1.21.11-1.5.6.jar",
+            "sha256": "430ae68efe710f44f756ad521b6fb811c1598f140d50feee624d9fd9c16cf100"
+          }
+        ],
+        "notes": [
+          "แก้บัคกำแพงค้างตอนส่งของขวัญขยาย/ย่อสนามพร้อมกันเยอะๆ — เดิมของขวัญแต่ละอันสร้างสนามใหม่ทั้งหมดทันทีในติ๊กเดียวกัน ทำให้ผนังเพี้ยนเวลามาถี่ๆ",
+          "ตอนนี้สนามจะค่อยๆ ขยาย/หดทีละ 1 หน่วยความกว้าง มี delay และมีเสียง (วางหิน/แตกหิน) ทุกสเต็ป พร้อมตัวเลขขนาดขึ้นจอ"
+        ]
+      },
+      {
         "version": "2.22.0",
         "mcVersionRange": "1.21.11",
         "loaderCompat": ["fabric"],

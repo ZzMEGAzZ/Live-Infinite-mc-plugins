@@ -7,6 +7,41 @@
     "category": "minigame",
     "versions": [
       {
+        "version": "2.19.0",
+        "mcVersionRange": "1.21.11",
+        "loaderCompat": ["fabric"],
+        "sha256": "b95c66eacf20e7d24c261e5d4efddcfb13472941919566bfb73e03af1fe382bd",
+        "file": "lava-chicken-2.19.0.jar",
+        "tag": "plugin-lava-chicken-v2.19.0",
+        "dependencies": [
+          {
+            "id": "fabric-api",
+            "version": "0.141.6+1.21.11",
+            "file": "https://cdn.modrinth.com/data/P7dR8mSH/versions/6qAuTtLR/fabric-api-0.141.6%2B1.21.11.jar",
+            "sha256": "bdff7fd7e220085cfad2ff9b1f40dde6534ae0b96cf378f97a374bc54cb9ed0f"
+          },
+          {
+            "id": "geckolib",
+            "version": "5.4.5",
+            "file": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/G1BvHQDL/geckolib-fabric-1.21.11-5.4.5.jar",
+            "sha256": "9ce5452528a4934e561bc847bf655a05a1b2c6ba2f161963ba5cb884fe0a0c1a"
+          },
+          {
+            "id": "untitledduckmod",
+            "version": "1.5.6+fabric",
+            "file": "https://cdn.modrinth.com/data/ojFjz7JF/versions/kjVdAw5R/untitledduckmod-fabric-1.21.11-1.5.6.jar",
+            "sha256": "430ae68efe710f44f756ad521b6fb811c1598f140d50feee624d9fd9c16cf100"
+          }
+        ],
+        "notes": [
+          "พิกลินฝ่ายเราไม่โจมตีผู้เล่นอีกต่อไปแม้จะโดนตีก่อนก็ตาม และตอนไม่มีมอนสเตอร์ให้สู้จะเดินไปอุ้มไก่/เป็ด/ห่านตัวที่ใกล้ที่สุดไปโยนลงบ่อให้เองอัตโนมัติ",
+          "การโยนสัตว์ลงบ่อเปลี่ยนจากคำนวณแรงเหวี่ยงเป็นลากตำแหน่งตรงไปกลางบ่อแทน รับประกันว่าลงบ่อทุกครั้ง ไม่มีพลาดตกค้างข้างบ่ออีกแล้ว",
+          "แก้คลิกจับสัตว์และคลิกโยนลงบ่อไม่ค่อยติด — ถ้าคลิกพลาดเป้านิดหน่อยตอนนี้จะจับ/โยนสัตว์ตัวที่ใกล้ที่สุดในแนวที่มองให้แทน",
+          "เอาข้อความ \"Scored N!\" ตอนโยนสัตว์ลงบ่อออก (คะแนนยังนับปกติ แค่ไม่มีข้อความเด้ง)",
+          "ปรับเลือด: ไก่ 5 เท่า, เป็ด 10 เท่า, ห่าน 15 เท่า (ลดจาก 10/15/20) และดาเมจห่านเหลือ 5 เท่า (ลดจาก 6 เท่า)"
+        ]
+      },
+      {
         "version": "2.18.0",
         "mcVersionRange": "1.21.11",
         "loaderCompat": ["fabric"],

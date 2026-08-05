@@ -10,7 +10,7 @@
         "version": "2.29.0",
         "mcVersionRange": "1.21.11",
         "loaderCompat": ["fabric"],
-        "sha256": "9902e12ec5466015bc836ef0fc323ec84106e2740dab442f43e8363f9d282f4c",
+        "sha256": "530574127d6f23431618c099506ac82c435d51ddb7f21d343564bbffd55cfe22",
         "file": "lava-chicken-2.29.0.jar",
         "tag": "plugin-lava-chicken-v2.29.0",
         "dependencies": [

@@ -7,6 +7,42 @@
     "category": "minigame",
     "versions": [
       {
+        "version": "2.49.0",
+        "mcVersionRange": "1.21.11",
+        "loaderCompat": [
+          "fabric"
+        ],
+        "sha256": "b33b47a64be13f719b5b86d3068eea31adb792deae6af544ffef4dc28011eccf",
+        "file": "lava-chicken-2.49.0.jar",
+        "tag": "plugin-lava-chicken-v2.49.0",
+        "dependencies": [
+          {
+            "id": "fabric-api",
+            "version": "0.141.6+1.21.11",
+            "file": "https://cdn.modrinth.com/data/P7dR8mSH/versions/6qAuTtLR/fabric-api-0.141.6%2B1.21.11.jar",
+            "sha256": "bdff7fd7e220085cfad2ff9b1f40dde6534ae0b96cf378f97a374bc54cb9ed0f"
+          },
+          {
+            "id": "geckolib",
+            "version": "5.4.5",
+            "file": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/G1BvHQDL/geckolib-fabric-1.21.11-5.4.5.jar",
+            "sha256": "9ce5452528a4934e561bc847bf655a05a1b2c6ba2f161963ba5cb884fe0a0c1a"
+          },
+          {
+            "id": "untitledduckmod",
+            "version": "1.5.6+fabric",
+            "file": "https://cdn.modrinth.com/data/ojFjz7JF/versions/kjVdAw5R/untitledduckmod-fabric-1.21.11-1.5.6.jar",
+            "sha256": "430ae68efe710f44f756ad521b6fb811c1598f140d50feee624d9fd9c16cf100"
+          }
+        ],
+        "notes": [
+          "ยืนในลาวาไม่ทำให้กล้องสั่นอีกแล้ว — เลือดลดเงียบ ๆ พร้อมเสียงเจ็บ ไม่มีจอแดง ไม่มีกล้องเอียง",
+          "ดาเมจลาวาเท่าเดิมทุกอย่าง (บ่อ 8 / รอบนอก 6 ต่อครึ่งวินาที) — ของเดิมตีทุก 0.25 วิ แต่โดน i-frame กินไปครึ่งนึงอยู่แล้ว",
+          "กินแอปเปิลทองเสก (Fire Resistance) ยังกันลาวาได้เหมือนเดิม ช่วงน้ำท่วมลาวาก็ยังอมตะเหมือนเดิม",
+          "กล้องสั่นตอนโดนมอนตีเป็นของ Minecraft เอง ปิดได้ที่ Options > Accessibility > Damage Tilt = 0%"
+        ]
+      },
+      {
         "version": "2.48.0",
         "mcVersionRange": "1.21.11",
         "loaderCompat": [

@@ -7,6 +7,41 @@
     "category": "minigame",
     "versions": [
       {
+        "version": "2.54.0",
+        "mcVersionRange": "1.21.11",
+        "loaderCompat": [
+          "fabric"
+        ],
+        "sha256": "1a8b46286efc8512b98733401037de1d449331ec8ce6c57e136ce4cc3daeb875",
+        "file": "lava-chicken-2.54.0.jar",
+        "tag": "plugin-lava-chicken-v2.54.0",
+        "dependencies": [
+          {
+            "id": "fabric-api",
+            "version": "0.141.6+1.21.11",
+            "file": "https://cdn.modrinth.com/data/P7dR8mSH/versions/6qAuTtLR/fabric-api-0.141.6%2B1.21.11.jar",
+            "sha256": "bdff7fd7e220085cfad2ff9b1f40dde6534ae0b96cf378f97a374bc54cb9ed0f"
+          },
+          {
+            "id": "geckolib",
+            "version": "5.4.5",
+            "file": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/G1BvHQDL/geckolib-fabric-1.21.11-5.4.5.jar",
+            "sha256": "9ce5452528a4934e561bc847bf655a05a1b2c6ba2f161963ba5cb884fe0a0c1a"
+          },
+          {
+            "id": "untitledduckmod",
+            "version": "1.5.6+fabric",
+            "file": "https://cdn.modrinth.com/data/ojFjz7JF/versions/kjVdAw5R/untitledduckmod-fabric-1.21.11-1.5.6.jar",
+            "sha256": "430ae68efe710f44f756ad521b6fb811c1598f140d50feee624d9fd9c16cf100"
+          }
+        ],
+        "notes": [
+          "hoglin กับ zoglin ตีแรงขึ้น 2 เท่า (6 -> 12) — ชุดเนเธอไรต์กันได้ราว 70% เลยเข้าจริงประมาณ 3.5 ต่อครั้ง เต็มเลือดตายใน 6 ครั้ง จากเดิมต้องโดน 14 ครั้ง",
+          "เท่ากับซอมบี้บน jockey พอดี (3 x 4 = 12) ซึ่งเป็นระดับที่สนามกันไว้ให้ตัวที่ตั้งใจฆ่าผู้เล่นจริง ๆ",
+          "ยังตั้งใจให้ช้ากว่าบ่อลาวา (4 ต่อครึ่งวินาที ทะลุเกราะ ตายใน 2.5 วิ) — บ่อกลางต้องเป็นสิ่งที่อันตรายที่สุดในสนามเสมอ"
+        ]
+      },
+      {
         "version": "2.53.0",
         "mcVersionRange": "1.21.11",
         "loaderCompat": [

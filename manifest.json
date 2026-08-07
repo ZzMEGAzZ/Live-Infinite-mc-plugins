@@ -7,6 +7,42 @@
     "category": "minigame",
     "versions": [
       {
+        "version": "2.43.0",
+        "mcVersionRange": "1.21.11",
+        "loaderCompat": ["fabric"],
+        "sha256": "e2d736b576eca59e666625611728100940915064aa0e3db33d13705679cbf630",
+        "file": "lava-chicken-2.43.0.jar",
+        "tag": "plugin-lava-chicken-v2.43.0",
+        "dependencies": [
+          {
+            "id": "fabric-api",
+            "version": "0.141.6+1.21.11",
+            "file": "https://cdn.modrinth.com/data/P7dR8mSH/versions/6qAuTtLR/fabric-api-0.141.6%2B1.21.11.jar",
+            "sha256": "bdff7fd7e220085cfad2ff9b1f40dde6534ae0b96cf378f97a374bc54cb9ed0f"
+          },
+          {
+            "id": "geckolib",
+            "version": "5.4.5",
+            "file": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/G1BvHQDL/geckolib-fabric-1.21.11-5.4.5.jar",
+            "sha256": "9ce5452528a4934e561bc847bf655a05a1b2c6ba2f161963ba5cb884fe0a0c1a"
+          },
+          {
+            "id": "untitledduckmod",
+            "version": "1.5.6+fabric",
+            "file": "https://cdn.modrinth.com/data/ojFjz7JF/versions/kjVdAw5R/untitledduckmod-fabric-1.21.11-1.5.6.jar",
+            "sha256": "430ae68efe710f44f756ad521b6fb811c1598f140d50feee624d9fd9c16cf100"
+          }
+        ],
+        "notes": [
+          "สนามเริ่มต้นใหญ่ขึ้นเป็น 20x20 (ไก่เริ่มต้น 30 ตัวเหมือนเดิม)",
+          "ล้อมรอบบ่อลาวาด้วยหินเรืองแสง (glowstone) ให้เห็นขอบบ่อชัดขึ้น",
+          "โดน magma cube ตีแล้วเด้งลอยขึ้นน้อยลง เหลือ 40% ของเดิม",
+          "เปิด 'บทลงโทษเมื่อตาย' แล้วตาย 1 ครั้ง = เสีย 1 วินจริง ๆ (หักที่ overlay ด้วย)",
+          "ตกลาวารอบนอกแล้ววาร์ปกลับขึ้นสนามทันที ไม่ต้องรอจมลงไปก่อน",
+          "รายงานเวอร์ชันของ mod ที่รันอยู่จริงให้แอปแสดงในหน้าตั้งค่า"
+        ]
+      },
+      {
         "version": "2.42.0",
         "mcVersionRange": "1.21.11",
         "loaderCompat": ["fabric"],

@@ -7,6 +7,44 @@
     "category": "minigame",
     "versions": [
       {
+        "version": "2.51.0",
+        "mcVersionRange": "1.21.11",
+        "loaderCompat": [
+          "fabric"
+        ],
+        "sha256": "7b5a82922950d53cd029bd66abb6a7753c3b2ee27275ac36037b9b92014f6c1f",
+        "file": "lava-chicken-2.51.0.jar",
+        "tag": "plugin-lava-chicken-v2.51.0",
+        "dependencies": [
+          {
+            "id": "fabric-api",
+            "version": "0.141.6+1.21.11",
+            "file": "https://cdn.modrinth.com/data/P7dR8mSH/versions/6qAuTtLR/fabric-api-0.141.6%2B1.21.11.jar",
+            "sha256": "bdff7fd7e220085cfad2ff9b1f40dde6534ae0b96cf378f97a374bc54cb9ed0f"
+          },
+          {
+            "id": "geckolib",
+            "version": "5.4.5",
+            "file": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/G1BvHQDL/geckolib-fabric-1.21.11-5.4.5.jar",
+            "sha256": "9ce5452528a4934e561bc847bf655a05a1b2c6ba2f161963ba5cb884fe0a0c1a"
+          },
+          {
+            "id": "untitledduckmod",
+            "version": "1.5.6+fabric",
+            "file": "https://cdn.modrinth.com/data/ojFjz7JF/versions/kjVdAw5R/untitledduckmod-fabric-1.21.11-1.5.6.jar",
+            "sha256": "430ae68efe710f44f756ad521b6fb811c1598f140d50feee624d9fd9c16cf100"
+          }
+        ],
+        "notes": [
+          "ไฟกองบนพื้น / ลูกไฟ Blaze / ไฟจาก Ghast ไม่ตีดาเมจตรง ๆ แล้ว เหลือแค่ทำให้ติดไฟ",
+          "ติดไฟนานสุด 4 วินาที ไม่ว่าจะโดนจากอะไร (เดิมเหยียบไฟกองเดียวติด 8 วิ แล้วเหยียบซ้ำก็นับใหม่ไม่จบ)",
+          "ติดไฟเสียเลือด 2 ต่อวินาที = แพงสุด 8 ต่อการติดไฟ 1 ครั้ง (2.50.0 = 24, ก่อนหน้านั้น 40)",
+          "ไฟทุกอย่างที่ทำกับผู้เล่นตอนนี้คุมจากที่เดียว ไม่มีดาเมจของ Minecraft ซ้อนเข้ามา และไม่มีกล้องสั่น",
+          "แรงระเบิดของลูกไฟ Ghast ยังเป็นของเกมเดิม บอกได้ถ้าจะให้ลดด้วย",
+          "ค่าเริ่มต้นของเซิร์ฟใหม่: ไก่ 30 ตัว / นับถอยหลัง 15 วิ (เดิม 30) / สนาม 20x20 — เซิร์ฟที่สร้างไว้แล้วยังใช้ค่าที่ตั้งเอง ไปแก้ในหน้าตั้งค่าได้"
+        ]
+      },
+      {
         "version": "2.50.0",
         "mcVersionRange": "1.21.11",
         "loaderCompat": [

@@ -7,9 +7,46 @@
     "category": "minigame",
     "versions": [
       {
+        "version": "2.44.0",
+        "mcVersionRange": "1.21.11",
+        "loaderCompat": [
+          "fabric"
+        ],
+        "sha256": "85cf165acb2c9fbd0c5558b6a69bd995088a6c85fd96687638193e43d1d30d1b",
+        "file": "lava-chicken-2.44.0.jar",
+        "tag": "plugin-lava-chicken-v2.44.0",
+        "dependencies": [
+          {
+            "id": "fabric-api",
+            "version": "0.141.6+1.21.11",
+            "file": "https://cdn.modrinth.com/data/P7dR8mSH/versions/6qAuTtLR/fabric-api-0.141.6%2B1.21.11.jar",
+            "sha256": "bdff7fd7e220085cfad2ff9b1f40dde6534ae0b96cf378f97a374bc54cb9ed0f"
+          },
+          {
+            "id": "geckolib",
+            "version": "5.4.5",
+            "file": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/G1BvHQDL/geckolib-fabric-1.21.11-5.4.5.jar",
+            "sha256": "9ce5452528a4934e561bc847bf655a05a1b2c6ba2f161963ba5cb884fe0a0c1a"
+          },
+          {
+            "id": "untitledduckmod",
+            "version": "1.5.6+fabric",
+            "file": "https://cdn.modrinth.com/data/ojFjz7JF/versions/kjVdAw5R/untitledduckmod-fabric-1.21.11-1.5.6.jar",
+            "sha256": "430ae68efe710f44f756ad521b6fb811c1598f140d50feee624d9fd9c16cf100"
+          }
+        ],
+        "notes": [
+          "ค่าที่ตั้งไว้ไม่รีเซ็ตเวลารีสตาร์ทเซิร์ฟเวอร์อีกแล้ว: ตายกี่ครั้งเสีย 1 วิน, เวลานับถอยหลังชนะ, จำนวนไก่เริ่มต้น, บทลงโทษเมื่อตาย และจำนวนวินสะสม ถูกบันทึกลงไฟล์ config",
+          "แก้บั๊ก \"ตายครบ X ครั้ง\" ขึ้นบนจอแล้วแต่วินไม่ลด — เกิดจากจำนวนวินในเซิร์ฟเวอร์ถูกรีเซ็ตเป็น 0 ทุกครั้งที่รีสตาร์ท จึงไม่มีวินให้หัก",
+          "เพิ่ม log LC_DEATHWINLOSS ทุกครั้งที่มีคนตายในสนาม (บอกว่านับถึงเท่าไหร่ / หักวินแล้ว / ยังไม่มีวินให้หัก / ระบบปิดอยู่) และ log LC_BOOT ตอนเปิดเซิร์ฟเวอร์ว่าโหลดค่าอะไรมาบ้าง"
+        ]
+      },
+      {
         "version": "2.43.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "e2d736b576eca59e666625611728100940915064aa0e3db33d13705679cbf630",
         "file": "lava-chicken-2.43.0.jar",
         "tag": "plugin-lava-chicken-v2.43.0",
@@ -45,7 +82,9 @@
       {
         "version": "2.42.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "3a7f14c5fc54edd6f50edf7fbc660bb72a6793c5c4289d7071bbf0ecb091adb9",
         "file": "lava-chicken-2.42.0.jar",
         "tag": "plugin-lava-chicken-v2.42.0",
@@ -77,7 +116,9 @@
       {
         "version": "2.41.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "f1a9075285ac440025409294db313072543248e3d57c88188e9ce5f8546e0b42",
         "file": "lava-chicken-2.41.0.jar",
         "tag": "plugin-lava-chicken-v2.41.0",
@@ -111,7 +152,9 @@
       {
         "version": "2.40.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "79d176033ce46a816d04d865b369c7c0944b8ee92c037f17f314b9d242708053",
         "file": "lava-chicken-2.40.0.jar",
         "tag": "plugin-lava-chicken-v2.40.0",
@@ -143,7 +186,9 @@
       {
         "version": "2.39.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "90705b367f61daea7d8701be7501998741000278d2d2c1d0e28029878d216517",
         "file": "lava-chicken-2.39.0.jar",
         "tag": "plugin-lava-chicken-v2.39.0",
@@ -175,7 +220,9 @@
       {
         "version": "2.38.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "f0b384bba66126f9c3ccb1f93506a86752680f61c7c485ec126a5b9bdf0ec630",
         "file": "lava-chicken-2.38.0.jar",
         "tag": "plugin-lava-chicken-v2.38.0",
@@ -206,7 +253,9 @@
       {
         "version": "2.37.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "fa00fed598461587732d2e07a63543c7b1b53eacff6fab1b846e843e39335710",
         "file": "lava-chicken-2.37.0.jar",
         "tag": "plugin-lava-chicken-v2.37.0",
@@ -238,7 +287,9 @@
       {
         "version": "2.36.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "a300bf36d4e7caeea1d24e2090a27a10d494cec8912981711bb75c79a69f1da3",
         "file": "lava-chicken-2.36.0.jar",
         "tag": "plugin-lava-chicken-v2.36.0",
@@ -269,7 +320,9 @@
       {
         "version": "2.35.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "f6b9fabff2b6c614bb8886653240a1748d2f68fb56d73788db1706b78cfb70b6",
         "file": "lava-chicken-2.35.0.jar",
         "tag": "plugin-lava-chicken-v2.35.0",
@@ -300,7 +353,9 @@
       {
         "version": "2.34.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "b27b12d809b4b6d2867e253d2d6a32cd071de99d1870447ba2eca75d7949f2a9",
         "file": "lava-chicken-2.34.0.jar",
         "tag": "plugin-lava-chicken-v2.34.0",
@@ -331,7 +386,9 @@
       {
         "version": "2.33.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "f7a55a9900d7529de0bb498fa7f9a7854b3eef4703322d81bc589e746245c25e",
         "file": "lava-chicken-2.33.0.jar",
         "tag": "plugin-lava-chicken-v2.33.0",
@@ -362,7 +419,9 @@
       {
         "version": "2.32.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "cc7955ebbecec562f427476aa2363ba6810b1202c1e677569fc9e06f3c8e7335",
         "file": "lava-chicken-2.32.0.jar",
         "tag": "plugin-lava-chicken-v2.32.0",
@@ -393,7 +452,9 @@
       {
         "version": "2.31.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "730d2344e8976bb7f5e503f98fa849eef8f65578fc23ba5af8d785c4f74bc139",
         "file": "lava-chicken-2.31.0.jar",
         "tag": "plugin-lava-chicken-v2.31.0",
@@ -425,7 +486,9 @@
       {
         "version": "2.30.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "bd5ec4a3d7600272df8d430ea2db57360d13368e7b052938208fa51fd522062b",
         "file": "lava-chicken-2.30.0.jar",
         "tag": "plugin-lava-chicken-v2.30.0",
@@ -458,7 +521,9 @@
       {
         "version": "2.29.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "530574127d6f23431618c099506ac82c435d51ddb7f21d343564bbffd55cfe22",
         "file": "lava-chicken-2.29.0.jar",
         "tag": "plugin-lava-chicken-v2.29.0",
@@ -495,7 +560,9 @@
       {
         "version": "2.28.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "fb552707eec2b728a16025aef89e34b5deec1692a6e86f8489485b2112010024",
         "file": "lava-chicken-2.28.0.jar",
         "tag": "plugin-lava-chicken-v2.28.0",
@@ -526,7 +593,9 @@
       {
         "version": "2.27.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "bf716382f71da5c0805cdbeef32a0a5bcdaef5b0ef7ffc32a388a9d03664536e",
         "file": "lava-chicken-2.27.0.jar",
         "tag": "plugin-lava-chicken-v2.27.0",
@@ -557,7 +626,9 @@
       {
         "version": "2.26.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "8f103891ed9d5cf5b33e30a6fb4030d96f3171dd66958ccbb13b2550f9549ef9",
         "file": "lava-chicken-2.26.0.jar",
         "tag": "plugin-lava-chicken-v2.26.0",
@@ -589,7 +660,9 @@
       {
         "version": "2.25.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "786baa94091986e0dcc0e0e48d0d4fc30ee735befc50805ae5a579f73319fd71",
         "file": "lava-chicken-2.25.0.jar",
         "tag": "plugin-lava-chicken-v2.25.0",
@@ -622,7 +695,9 @@
       {
         "version": "2.24.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "1cdf628eb4b9cf362d1fe3f0b73975214cdb80b12cbe329080ea354125d06779",
         "file": "lava-chicken-2.24.0.jar",
         "tag": "plugin-lava-chicken-v2.24.0",
@@ -654,7 +729,9 @@
       {
         "version": "2.23.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "921698f1b8a779b0fedd5e3f74adda8ca0ff23bb8b5f73fd65ebd9d88f55b5f1",
         "file": "lava-chicken-2.23.0.jar",
         "tag": "plugin-lava-chicken-v2.23.0",
@@ -686,7 +763,9 @@
       {
         "version": "2.22.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "488e59b068dd48f59e50d577f35b50195215d874e0147a106f78b6593ffce538",
         "file": "lava-chicken-2.22.0.jar",
         "tag": "plugin-lava-chicken-v2.22.0",
@@ -717,7 +796,9 @@
       {
         "version": "2.21.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "9d7876354cf7a552455deaf718150c7728af1d15d4e07e79f3c9a6a7853082f0",
         "file": "lava-chicken-2.21.0.jar",
         "tag": "plugin-lava-chicken-v2.21.0",
@@ -748,7 +829,9 @@
       {
         "version": "2.20.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "721c0b479c7202e39e37a24e3aab8a1c5debdf950a94718d95c863019478a864",
         "file": "lava-chicken-2.20.0.jar",
         "tag": "plugin-lava-chicken-v2.20.0",
@@ -782,7 +865,9 @@
       {
         "version": "2.19.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "b95c66eacf20e7d24c261e5d4efddcfb13472941919566bfb73e03af1fe382bd",
         "file": "lava-chicken-2.19.0.jar",
         "tag": "plugin-lava-chicken-v2.19.0",
@@ -817,7 +902,9 @@
       {
         "version": "2.18.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "b48c0e3c53bde8403e4baaf11ba91e17e738100402c52ff889940616ff34301c",
         "file": "lava-chicken-2.18.0.jar",
         "tag": "plugin-lava-chicken-v2.18.0",
@@ -849,7 +936,9 @@
       {
         "version": "2.17.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "d129c4bc2558c6ed131827e10fd35d51d48027b152bb822b35fe75a726a781ef",
         "file": "lava-chicken-2.17.0.jar",
         "tag": "plugin-lava-chicken-v2.17.0",
@@ -880,7 +969,9 @@
       {
         "version": "2.16.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "0a54f0b77bdbbda58a5d8a2fc2fd405c644de3fbc1426427eb863c5a2354cc89",
         "file": "lava-chicken-2.16.0.jar",
         "tag": "plugin-lava-chicken-v2.16.0",
@@ -911,7 +1002,9 @@
       {
         "version": "2.15.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "85e755d5499bde688a89816d64203a45363699874fad04f8f7b0ef4fbf300c49",
         "file": "lava-chicken-2.15.0.jar",
         "tag": "plugin-lava-chicken-v2.15.0",
@@ -947,7 +1040,9 @@
       {
         "version": "2.14.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "75b1e59163fa62efae1cef883682c209b78ce6a8b9f3c757924f4bb543feb2b6",
         "file": "lava-chicken-2.14.0.jar",
         "tag": "plugin-lava-chicken-v2.14.0",
@@ -979,7 +1074,9 @@
       {
         "version": "2.13.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "727a8555319ef7c0c6d0edaa0b257cccc203264c6de0223119f807533054e191",
         "file": "lava-chicken-2.13.0.jar",
         "tag": "plugin-lava-chicken-v2.13.0",
@@ -1013,7 +1110,9 @@
       {
         "version": "2.12.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "089263a66d0dceedbe1fc6d9f40fb6d0b1737bd496bc47e333a608e74f00b7c8",
         "file": "lava-chicken-2.12.0.jar",
         "tag": "plugin-lava-chicken-v2.12.0",
@@ -1046,7 +1145,9 @@
       {
         "version": "2.11.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "3d4cdc4c108425c7397301fc045f74fd4d8384863e7b13368fdfa351a0ef6269",
         "file": "lava-chicken-2.11.0.jar",
         "tag": "plugin-lava-chicken-v2.11.0",
@@ -1079,7 +1180,9 @@
       {
         "version": "2.10.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "66d86b83f18331e4cf6821271f868951a679e757a7423d0e1d3e3b18340084c6",
         "file": "lava-chicken-2.10.0.jar",
         "tag": "plugin-lava-chicken-v2.10.0",
@@ -1110,7 +1213,9 @@
       {
         "version": "2.9.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "075d1d5362de7d2b605d0a9f89f8cc4153f4050cf870a99d4bc974a708f9d40d",
         "file": "lava-chicken-2.9.0.jar",
         "tag": "plugin-lava-chicken-v2.9.0",
@@ -1142,7 +1247,9 @@
       {
         "version": "2.8.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "10164fe75be09ab396d9008c37deee07fa2dea769e02a73c7e99ca218dd5a521",
         "file": "lava-chicken-2.8.0.jar",
         "tag": "plugin-lava-chicken-v2.8.0",
@@ -1175,7 +1282,9 @@
       {
         "version": "2.7.1",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "e13ee3150b347dc5e0c1036aeec2aeb52699ae87ef6bfe69b1af06843640fc2c",
         "file": "lava-chicken-2.7.1.jar",
         "tag": "plugin-lava-chicken-v2.7.1",
@@ -1206,7 +1315,9 @@
       {
         "version": "2.7.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "153adb908db8ff971c92e1f3a0a28c9743c3c631e2d7a8a5491e6c8ea28e71fc",
         "file": "lava-chicken-2.7.0.jar",
         "tag": "plugin-lava-chicken-v2.7.0",
@@ -1239,7 +1350,9 @@
       {
         "version": "2.6.1",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "4b23eb46827c5248063e315acb34ab2aeca25ee690d18423659caf5090b0fb6c",
         "file": "lava-chicken-2.6.1.jar",
         "tag": "plugin-lava-chicken-v2.6.1",
@@ -1272,7 +1385,9 @@
       {
         "version": "2.6.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "08af3b7a63452a12ce3fd57077dcfa48655bd490ac9e38034017360ee64aee9b",
         "file": "lava-chicken-2.6.0.jar",
         "tag": "plugin-lava-chicken-v2.6.0",
@@ -1306,7 +1421,9 @@
       {
         "version": "2.5.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "c228a89d521ce69bb5a60b31a3470a4c5564f65aac27efa6f4654209b9624c6f",
         "file": "lava-chicken-2.5.0.jar",
         "tag": "plugin-lava-chicken-v2.5.0",
@@ -1343,7 +1460,9 @@
       {
         "version": "2.4.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "05535a125a51583a63a92d4a7a7da009e3b50a76b8ad0d10cc7cbf02a7aa8e1a",
         "file": "lava-chicken-2.4.0.jar",
         "tag": "plugin-lava-chicken-v2.4.0",
@@ -1379,7 +1498,9 @@
       {
         "version": "2.3.2",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "32fc0d579592ef66bc4cc6cab7f3162a8c8b10cce30556f3a6bbd05d215b2c2a",
         "file": "lava-chicken-2.3.2.jar",
         "tag": "plugin-lava-chicken-v2.3.2",
@@ -1415,7 +1536,9 @@
       {
         "version": "2.3.1",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "788feb8607c4033c99f4f1a0a2905b0f75d3440721652b382fb05b07c41aadce",
         "file": "lava-chicken-2.3.1.jar",
         "tag": "plugin-lava-chicken-v2.3.1",
@@ -1447,7 +1570,9 @@
       {
         "version": "2.3.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "ba2b7575a69712ed7e9705b9ffa8e354fa1cb93e555fc19e8c5ef504b57ecace",
         "file": "lava-chicken-2.3.0.jar",
         "tag": "plugin-lava-chicken-v2.3.0",
@@ -1483,7 +1608,9 @@
       {
         "version": "2.2.1",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "11e390ff8d4a642f1c205e95f2e74fef072e9b6e56a056b339de1d3468da408a",
         "file": "lava-chicken-2.2.1.jar",
         "tag": "plugin-lava-chicken-v2.2.1",
@@ -1515,7 +1642,9 @@
       {
         "version": "2.2.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "1bbcff1dc6c0850c9fb0305295afe809b6b8b9c86bcce231f9ab67f56db6adc8",
         "file": "lava-chicken-2.2.0.jar",
         "tag": "plugin-lava-chicken-v2.2.0",
@@ -1549,7 +1678,9 @@
       {
         "version": "2.1.1",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "3b01832b92fc9ffd8a7caf92e9df5d7e24b05b390621be2a624c13da6ec4e4a1",
         "file": "lava-chicken-2.1.1.jar",
         "tag": "plugin-lava-chicken-v2.1.1",
@@ -1582,7 +1713,9 @@
       {
         "version": "2.1.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "6d1149d4090e69e10899245714a44d81dcd7500396be58e577ae854f1b00ee4e",
         "file": "lava-chicken-2.1.0.jar",
         "tag": "plugin-lava-chicken-v2.1.0",
@@ -1617,7 +1750,9 @@
       {
         "version": "2.0.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "b80d6d3d57e0b5e96891d3f3337fe99635604bf16855ecd3243b7bf3761f1f28",
         "file": "lava-chicken-2.0.0.jar",
         "tag": "plugin-lava-chicken-v2.0.0",
@@ -1664,7 +1799,9 @@
       {
         "version": "2.0.0",
         "mcVersionRange": "1.21.11",
-        "loaderCompat": ["fabric"],
+        "loaderCompat": [
+          "fabric"
+        ],
         "sha256": "7375fcf0865c00f965e0036043b946eac77dffb17c75373625403e8f55dfce7a",
         "file": "li-survival-2.0.0.jar",
         "tag": "plugin-li-survival-v2.0.0",

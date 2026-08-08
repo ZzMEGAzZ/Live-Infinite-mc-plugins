@@ -7,6 +7,41 @@
     "category": "minigame",
     "versions": [
       {
+        "version": "2.56.0",
+        "mcVersionRange": "1.21.11",
+        "loaderCompat": [
+          "fabric"
+        ],
+        "sha256": "928add8bb659c81687670bdcb4a89a97e469698c874a44d07842828405c89b93",
+        "file": "lava-chicken-2.56.0.jar",
+        "tag": "plugin-lava-chicken-v2.56.0",
+        "dependencies": [
+          {
+            "id": "fabric-api",
+            "version": "0.141.6+1.21.11",
+            "file": "https://cdn.modrinth.com/data/P7dR8mSH/versions/6qAuTtLR/fabric-api-0.141.6%2B1.21.11.jar",
+            "sha256": "bdff7fd7e220085cfad2ff9b1f40dde6534ae0b96cf378f97a374bc54cb9ed0f"
+          },
+          {
+            "id": "geckolib",
+            "version": "5.4.5",
+            "file": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/G1BvHQDL/geckolib-fabric-1.21.11-5.4.5.jar",
+            "sha256": "9ce5452528a4934e561bc847bf655a05a1b2c6ba2f161963ba5cb884fe0a0c1a"
+          },
+          {
+            "id": "untitledduckmod",
+            "version": "1.5.6+fabric",
+            "file": "https://cdn.modrinth.com/data/ojFjz7JF/versions/kjVdAw5R/untitledduckmod-fabric-1.21.11-1.5.6.jar",
+            "sha256": "430ae68efe710f44f756ad521b6fb811c1598f140d50feee624d9fd9c16cf100"
+          }
+        ],
+        "notes": [
+          "สนามสว่างขึ้นแล้ว — พื้นสุ่มเป็น shroomlight ประมาณ 1 ใน 16 ช่อง (แสงระดับ 15 เท่า glowstone)",
+          "ใช้ shroomlight แทน glowstone 2 เหตุผล: (1) glowstone ตอนนี้แปลว่า \"ขอบบ่อ\" เพราะเป็นครึ่งนึงของวงชั้น 2 โรยบนพื้นอีกจะทำให้ขอบอ่านไม่ออกเหมือนเดิม (2) โค้ด heal ถือว่า glowstone บนพื้นคือของเก่าที่ต้องสุ่มใหม่ ถ้าใส่กลับไปมันจะถูกรื้อทิ้งทุกครึ่งวินาทีไม่มีวันอยู่นิ่ง",
+          "สนามเดิมจะสว่างเองตอนรีสตาร์ทเซิร์ฟครั้งถัดไป (พื้นถูกวางใหม่ทุกครั้งที่เปิด) ไม่ต้อง /inf build"
+        ]
+      },
+      {
         "version": "2.55.0",
         "mcVersionRange": "1.21.11",
         "loaderCompat": [

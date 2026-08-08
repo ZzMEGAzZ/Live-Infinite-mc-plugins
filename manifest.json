@@ -7,6 +7,42 @@
     "category": "minigame",
     "versions": [
       {
+        "version": "2.57.0",
+        "mcVersionRange": "1.21.11",
+        "loaderCompat": [
+          "fabric"
+        ],
+        "sha256": "0287518b367f086e5b5477c017e59a81b5cc301fd8267300a269019d936d06bc",
+        "file": "lava-chicken-2.57.0.jar",
+        "tag": "plugin-lava-chicken-v2.57.0",
+        "dependencies": [
+          {
+            "id": "fabric-api",
+            "version": "0.141.6+1.21.11",
+            "file": "https://cdn.modrinth.com/data/P7dR8mSH/versions/6qAuTtLR/fabric-api-0.141.6%2B1.21.11.jar",
+            "sha256": "bdff7fd7e220085cfad2ff9b1f40dde6534ae0b96cf378f97a374bc54cb9ed0f"
+          },
+          {
+            "id": "geckolib",
+            "version": "5.4.5",
+            "file": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/G1BvHQDL/geckolib-fabric-1.21.11-5.4.5.jar",
+            "sha256": "9ce5452528a4934e561bc847bf655a05a1b2c6ba2f161963ba5cb884fe0a0c1a"
+          },
+          {
+            "id": "untitledduckmod",
+            "version": "1.5.6+fabric",
+            "file": "https://cdn.modrinth.com/data/ojFjz7JF/versions/kjVdAw5R/untitledduckmod-fabric-1.21.11-1.5.6.jar",
+            "sha256": "430ae68efe710f44f756ad521b6fb811c1598f140d50feee624d9fd9c16cf100"
+          }
+        ],
+        "notes": [
+          "แก้ flee ที่เหมือนไม่ทำงาน — ระยะที่สัตว์จะ \"เห็น\" ผู้เล่นเดิมแค่ 12 บล็อก แต่สนามกว้าง 20+ ฝูงส่วนใหญ่จึงไม่เข้าเงื่อนไขเลย เห็นแค่ไม่กี่ตัวใกล้ ๆ ขยับ ตอนนี้ทั้งฝูงหนีหมดไม่ว่าอยู่ตรงไหน",
+          "โหมด creative ก็ทำให้สัตว์หนีแล้ว — เดิมโค้ดข้ามผู้เล่น creative (ยืมเงื่อนไขของมอนไล่ล่ามาใช้) ถ้าทดสอบจากครีเอทีฟจะไม่เกิดอะไรขึ้นเลย ตอนนี้ข้ามเฉพาะ spectator",
+          "สั่งหนีใหม่ทุกครึ่งวินาทีตลอดเวลาที่เหลือ แทนที่จะทุก 1 วินาที — AI เดินเล่นของไก่แย่งคุมทางเดินได้ไม่เกินครึ่งวิ และถ้าหาทางหนีตรง ๆ ไม่ได้จะใช้การหนีแบบสุ่มทิศของวานิลลาแทน ไม่ยืนนิ่ง",
+          "เพิ่ม log LC_FLEE marked=N ตอนสั่ง เพื่อแยกให้ออกว่า \"ของขวัญไม่ทำงาน\" กับ \"ไม่มีสัตว์ให้ทำ\""
+        ]
+      },
+      {
         "version": "2.56.0",
         "mcVersionRange": "1.21.11",
         "loaderCompat": [

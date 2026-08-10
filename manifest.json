@@ -7,6 +7,41 @@
     "category": "minigame",
     "versions": [
       {
+        "version": "2.60.0",
+        "mcVersionRange": "1.21.11",
+        "loaderCompat": [
+          "fabric"
+        ],
+        "sha256": "ac71ab47dbe25f82b02751923a8b7cd887d8519d52c4391e553941d444e1621a",
+        "file": "lava-chicken-2.60.0.jar",
+        "tag": "plugin-lava-chicken-v2.60.0",
+        "dependencies": [
+          {
+            "id": "fabric-api",
+            "version": "0.141.6+1.21.11",
+            "file": "https://cdn.modrinth.com/data/P7dR8mSH/versions/6qAuTtLR/fabric-api-0.141.6%2B1.21.11.jar",
+            "sha256": "bdff7fd7e220085cfad2ff9b1f40dde6534ae0b96cf378f97a374bc54cb9ed0f"
+          },
+          {
+            "id": "geckolib",
+            "version": "5.4.5",
+            "file": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/G1BvHQDL/geckolib-fabric-1.21.11-5.4.5.jar",
+            "sha256": "9ce5452528a4934e561bc847bf655a05a1b2c6ba2f161963ba5cb884fe0a0c1a"
+          },
+          {
+            "id": "untitledduckmod",
+            "version": "1.5.6+fabric",
+            "file": "https://cdn.modrinth.com/data/ojFjz7JF/versions/kjVdAw5R/untitledduckmod-fabric-1.21.11-1.5.6.jar",
+            "sha256": "430ae68efe710f44f756ad521b6fb811c1598f140d50feee624d9fd9c16cf100"
+          }
+        ],
+        "notes": [
+          "เอฟเฟกต์ระดับ level-up (เสียง + ประกายไฟ) ตอนนี้ขึ้นตอนพิกลินพันธมิตรส่งสัตว์ลงบ่อลาวาสำเร็จ ไม่ใช่ตอนผู้เล่นแค่เดินเข้าไปในบ่อ — เดิมเดินเข้า-ออกบ่อรัว ๆ ก็เล่นเอฟเฟกต์ได้ไม่จำกัดโดยไม่ได้ส่งอะไรลงบ่อจริง ตอนนี้เอฟเฟกต์ผูกกับการส่งของจริงของพิกลิน ซึ่งเป็นเหตุการณ์ที่มีความหมายจริง (จับได้ อุ้มมา ส่งลงบ่อสำเร็จ)",
+          "เพิ่มตัวนับถอยหลังของสัตว์ที่กำลังหนี (ของขวัญ flee) แสดงบนแถบ action bar เดียวกับตัวนับบ่อลาวาปิด — เดิมสองอย่างนี้แย่งพื้นที่บรรทัดเดียวกัน อันที่เรียกทีหลังจะบังอันแรกเสมอ ทำให้บางทีนับถอยหลังบ่อลาวาหายไปเฉย ๆ ตอนนี้รวมเป็นบรรทัดเดียวกัน แสดงได้พร้อมกันทั้งคู่ หรือแยกกันก็ได้ถ้าอีกฝั่งไม่ทำงาน",
+          "เพิ่มความเร็วเป็ด 30% — เป็ดหนีผู้เล่นตลอดเวลาอยู่แล้ว (ตั้งแต่ 2.59.0) ความเร็วที่เพิ่มนี้เป็นค่าพื้นฐานของตัวมันเอง ซ้อนทับกับตัวคูณความเร็ววิ่งหนีได้ ไม่ได้แทนที่กัน"
+        ]
+      },
+      {
         "version": "2.59.0",
         "mcVersionRange": "1.21.11",
         "loaderCompat": [

@@ -12,7 +12,7 @@
         "loaderCompat": [
           "fabric"
         ],
-        "sha256": "087d393190aafa6069404f82c1a1e19aa20a4345ba62b0437f8468fe46685272",
+        "sha256": "3d4852125f22e234c5983495f5d61c39f6eeafe573b7f2e6bc72f471741de4f7",
         "file": "lava-chicken-2.61.0.jar",
         "tag": "plugin-lava-chicken-v2.61.0",
         "dependencies": [

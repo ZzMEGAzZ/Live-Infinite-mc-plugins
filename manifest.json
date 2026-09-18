@@ -2908,6 +2908,33 @@
     "category": "effects",
     "versions": [
       {
+        "version": "3.0.1",
+        "mcVersionRange": "1.21.11",
+        "loaderCompat": [
+          "fabric"
+        ],
+        "sha256": "7b9dcac4c59a2acbfabd42cb4856f3adf4fc318c3166dd6f096aa305e4c092dd",
+        "file": "li-survival-3.0.1.jar",
+        "tag": "plugin-li-survival-v3.0.1",
+        "dependencies": [
+          {
+            "id": "fabric-api",
+            "version": "0.141.6+1.21.11",
+            "file": "https://cdn.modrinth.com/data/P7dR8mSH/versions/6qAuTtLR/fabric-api-0.141.6%2B1.21.11.jar",
+            "sha256": "bdff7fd7e220085cfad2ff9b1f40dde6534ae0b96cf378f97a374bc54cb9ed0f"
+          }
+        ],
+        "notes": [
+          "เปลี่ยนโปรโตคอลทั้งหมด: /li effect ... @a ... แบบเดิม (ไม่ auth) ถูกถอดออก — ทุกเอฟเฟกต์ต้องส่งเป็น /li auth <ts> <nonce> <sig> effect ... player:<uuid> ... เซ็นด้วย session secret ต่อเซิร์ฟเวอร์ (ดู SurvivalSessionAuth.java) แอป Live Infinite ต้องเป็นเวอร์ชันที่รองรับโปรโตคอลนี้แล้ว (ตั้งแต่ commit เพิ่ม crossplay/playit) ไม่งั้นคำสั่งจะถูกปฏิเสธหมด",
+          "ของขวัญจริงและ Server ต่างๆ เล็งผู้เล่นทีละคนที่ออนไลน์อยู่ (ผ่าน /li players) แทนการยิง @a กว้างๆ แบบเดิม เพราะโปรโตคอลใหม่ไม่รองรับ broadcast target แล้ว",
+          "แก้ปุ่มทดสอบคำสั่งในตารางที่เคยไม่ทำงาน (ยังส่ง format เก่าอยู่ ทั้งที่ปุ่มทดสอบจาก event อัปเดตไปใช้โปรโตคอลใหม่แล้ว) ให้ใช้เส้นทางเดียวกับของจริงทั้งหมด",
+          "เอฟเฟกต์ประเภทเวลา (บัฟ/ดีบัฟ 30 กว่าตัว) แยก \"ระดับ\" กับ \"ระยะเวลา\" ออกจากกันชัดเจนแล้ว — เลขที่ส่งมาคือวินาทีล้วนๆ ไม่ใช่ทั้งระดับโพชั่นและวินาทีปนกันเหมือนเดิม (ดู EffectContract.java/TimedEffectPolicy.java)",
+          "เพิ่ม Action Bar แสดงเอฟเฟกต์ที่กำลังติดอยู่พร้อมเวลานับถอยหลัง (TimedHudManager)",
+          "v3.0.1: ทุกคำสั่ง (ไม่ใช่แค่ toastMessage เหมือนเดิม) จะขึ้น title บนจอผู้เล่น — บรรทัดบนคือชื่อผู้ส่ง บรรทัดล่างคือชื่อเอฟเฟกต์ที่เกิดขึ้น ปิดได้ด้วย /li auth ... config title false เหมือนเดิม",
+          "jar นี้ผ่าน ProGuard obfuscate แล้ว — ไม่ใช่ jar เดียวกับที่ build ได้ตรงๆ จากซอร์ส เหมือนทุกเวอร์ชันก่อนหน้า"
+        ]
+      },
+      {
         "version": "2.1.1",
         "mcVersionRange": "1.21.11",
         "loaderCompat": [

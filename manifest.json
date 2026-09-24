@@ -2904,9 +2904,37 @@
     "id": "li-survival",
     "name": "Live Infinite Survival",
     "banner": "",
-    "description": "188 gift-triggered effects — resize, teleport, weather, buffs, mob spawns, item gifts, lootboxes and traps.",
+    "description": "239 gift-triggered effects — ChaosTricks-style coloured creepers, resize, teleport, buffs, mob spawns, item gifts, lootboxes and traps.",
     "category": "effects",
     "versions": [
+      {
+        "version": "3.1.0",
+        "mcVersionRange": "1.21.11",
+        "loaderCompat": [
+          "fabric"
+        ],
+        "sha256": "e9761f2ad080963d7289eaa34a91e67fe220d88c59bef5ca30fac5c31546d814",
+        "file": "li-survival-3.1.0.jar",
+        "tag": "plugin-li-survival-v3.1.0",
+        "dependencies": [
+          {
+            "id": "fabric-api",
+            "version": "0.141.6+1.21.11",
+            "file": "https://cdn.modrinth.com/data/P7dR8mSH/versions/6qAuTtLR/fabric-api-0.141.6%2B1.21.11.jar",
+            "sha256": "bdff7fd7e220085cfad2ff9b1f40dde6534ae0b96cf378f97a374bc54cb9ed0f"
+          }
+        ],
+        "notes": [
+          "ครีปเปอร์ 6 สีแบบ ChaosTricks: ไฟ (แดง), น้ำ (ฟ้า), ลาวา (ส้ม), เทเลพอร์ต (ดำหน้าม่วง), บิน (ขาวน้ำแข็ง), แม่เหล็ก (เทา) — แต่ละตัวมีท่าระเบิดของตัวเอง เห็นได้ในเกมปกติไม่ต้องลงมอด",
+          "texture ของครีปเปอร์ส่งเป็น resource pack จากเซิร์ฟเวอร์เองตอนเข้าเกม (กดรับครั้งเดียว) ถ้าไม่รับจะเห็นเป็นครีปเปอร์คอนกรีตสีเดียวกันแทน",
+          "เพิ่มครีปเปอร์ใหม่: บิน, แม่เหล็ก, ระเบิดกลาง, ไฮโดรเจน, ความว่างเปล่า, ครีปเปอร์ปลอม และจัมป์สแกร์ครีปเปอร์พุ่งใส่หน้าแบบ ChaosTricks",
+          "เพิ่มคำสั่งใหม่ 45 อย่างจาก ChaosTricks / CrowdControl: บัฟเดินทาง/สายตา/นักขุด, ยาเพิ่ม 9 แบบ, แรงโน้มถ่วงสูงสุด, สลับโหมด creative/spectator/adventure ชั่วคราว, ล็อกกล้อง, ตบ/เตะ, นับถอยหลังความตาย, Herobrine, ถังน้ำช่วยชีวิต, Do or Die, เทเลพอร์ตไปสิ่งก่อสร้าง/ไบโอม, ของขวัญและมอนสเตอร์ใหม่อีกหลายแบบ",
+          "คำสั่งเดิมหลายตัวปรับให้ตรงตัวเลขของ ChaosTricks (จำนวนของ, รัศมี, ลำดับเหตุการณ์) เช่น พลิกมอนสเตอร์กลับหัวแบบ Dinnerbone จริง, ตัวหนัก = กระโดดได้ครึ่งเดียว, ปีนกำแพงได้จริง",
+          "ยังมี title ชื่อผู้ส่ง/ชื่อเอฟเฟกต์ทุกของขวัญเหมือน 3.0.1",
+          "ใช้กับแอปเวอร์ชันเดิมได้ (คำสั่งเดิมยังอยู่ครบ) — คำสั่งใหม่ต้องใช้แอปเวอร์ชันถัดไป",
+          "jar นี้ผ่าน ProGuard obfuscate แล้ว — ไม่ใช่ jar เดียวกับที่ build ได้ตรงๆ จากซอร์ส เหมือนทุกเวอร์ชันก่อนหน้า"
+        ]
+      },
       {
         "version": "3.0.1",
         "mcVersionRange": "1.21.11",
